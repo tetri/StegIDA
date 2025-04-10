@@ -1,0 +1,204 @@
+@charset "utf-8";
+html, body {
+	background-color: #B8B8B8;
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	width: 100%;
+}
+#header {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	height: 120px;
+	background-image: url(../img/header_bg_repeat.gif);
+	background-repeat: repeat-x;
+}
+#header #header-center {
+	background-image: url(../img/header_bg.gif);
+	padding: 0px;
+	height: 120px;
+	width: 800px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#header h1, #header h2 {
+	text-indent: -5000em;
+	margin: 0px;
+	padding: 0px;
+}
+#header h1 {
+	background-image: url(../img/logo.png);
+	background-repeat: no-repeat;
+	height: 45px;
+	width: 190px;
+	padding-top: 58px;
+	background-position: center bottom;
+	padding-left: 100px;
+}
+
+#main {
+	background-color: #FFF;
+	margin: 0px;
+	height: 262px;
+	width: 100%;
+	padding-top: 6px;
+	padding-right: 0px;
+	padding-bottom: 6px;
+	padding-left: 0px;
+}
+
+#main #main-center {
+	height: 262px;
+	width: 700px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	padding: 0px;
+	border-top-width: 6px;
+	border-top-style: solid;
+	border-top-color: #ff0084;
+	background-image: url(../img/main_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+#floatr {
+	float: right;
+	width: 400px;
+	margin: 0px;
+	padding: 0px;
+}
+
+#floatr h3 {
+	height: 70px;
+	width: 270px;
+	background-image: url(../img/h3.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-indent: -5000em;
+	padding: 0px;
+	position: static;
+	left: 394px;
+	top: 58px;
+	margin-top: 48px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+
+#floatr h4 {
+	background-image: url(../img/h4.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding: 0px;
+	height: 40px;
+	width: 200px;
+	margin-top: 30px;
+	margin-right: auto;
+	margin-bottom: 36px;
+	margin-left: auto;
+}
+
+#floatr h4 a {
+	margin: 0px;
+	padding: 0px;
+	height: 40px;
+	width: 200px;
+	display: block;
+	font-size: 0px;
+}
+
+#footer {
+}
+
+#footer #footer-center {
+	width: 700px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 11px;
+}
+.copyright {
+	font-size: 10px;
+	color: #696969;
+}
+.links {
+	font-size: 11px;
+	color: #404040;
+}
+.links a {
+	color: #0a5fc8;
+	text-decoration: none;
+}
+.definition {
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #404040;
+}
+.definition a {
+	text-decoration: none;
+	color: #0a5fc8;
+}
+.definition a:hover {
+	text-decoration: underline;
+	color: #ff0084;
+}
+
+hr {
+	display: none;
+}
+#footer #logos {
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	height: 48px;
+	display: inline;
+}
+#logos .sourceforge {
+	font-size: 0px;
+	background-image: url(../img/logo_sourceforge.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	display: block;
+	height: 48px;
+	width: 152px;
+	float: left;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 6px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+#logos .unioeste {
+	font-size: 0px;
+	background-image: url(../img/logo_unioeste.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	height: 48px;
+	width: 56px;
+	float: left;
+}
+#logos .info {
+	font-size: 0px;
+	background-image: url(../img/logo_info.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	display: block;
+	padding: 0px;
+	height: 48px;
+	width: 60px;
+	float: left;
+	margin-top: 0px;
+	margin-right: 6px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
